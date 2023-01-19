@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
         {
 
             TovarsListViewModls obj = new TovarsListViewModls();
+            ViewBag.Title = "Страница магазина";
             obj.AllTovars = _allTovars.Tovars;
             obj.currCategory = "Категории";
             return View(obj);

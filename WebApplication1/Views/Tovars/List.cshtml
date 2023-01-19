@@ -1,11 +1,14 @@
 ﻿    <h2>МАГАЗИН САМОРЕЗОВ</h2>
     <h3>@Model.currCategory</h3>
+    
+    
+    <div class="row mt-5 mb-2">
     @{
         foreach (var tovar in Model.AllTovars)
         {
             <div class="col-md-6">
                 <div class="card mb-4" data-id="">
-                    <img class="product-img" src="img/${item.imgSrc}" alt="">
+                    <img class="product-img" src="@tovar.img" alt="">
                     <div class="card-body text-center">
                         <h4 class="item-title">@tovar.name</h4>
                         <p><small data-items-in-box class="text-muted">@tovar.count шт</small></p>
@@ -23,3 +26,4 @@
             </div>
         }
     }
+    </div>
