@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Krovelnye-samorezy.jpg",
+      "PackagePath": "staticwebassets\\img\\Krovelnye-samorezy.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mebelnye.jpg",
+      "PackagePath": "staticwebassets\\img\\Mebelnye.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Samorez-konstrukcionnyj.jpg",
+      "PackagePath": "staticwebassets\\img\\Samorez-konstrukcionnyj.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Samorezy-po-betonu.jpg",
+      "PackagePath": "staticwebassets\\img\\Samorezy-po-betonu.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Sjendvich-panelej.jpg",
+      "PackagePath": "staticwebassets\\img\\Sjendvich-panelej.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\fon.jpg",
+      "PackagePath": "staticwebassets\\img\\fon.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\samorez-okonii.jpg",
+      "PackagePath": "staticwebassets\\img\\samorez-okonii.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\tovar.jpg",
+      "PackagePath": "staticwebassets\\img\\tovar.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

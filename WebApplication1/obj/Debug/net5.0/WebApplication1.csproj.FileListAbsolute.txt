@@ -1,6 +1,6 @@
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\appsettings.Development.json
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\appsettings.json
-F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Db_setting.json
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\dbsettings.json
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.exe
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.deps.json
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.runtimeconfig.json
@@ -9,11 +9,10 @@ F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\ne
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.pdb
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.Views.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\WebApplication1.Views.pdb
-F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\EntityFramework.SqlServer.dll
-F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\EntityFramework.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Json.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -29,8 +28,8 @@ F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\ne
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
-F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.AssemblyReference.cache
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfoInputs.cache

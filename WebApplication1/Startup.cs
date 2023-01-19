@@ -12,12 +12,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication1.Documenty;
-using WebApplication1.Documenty.Interface;
-using WebApplication1.Documenty.Mocks;
+using WebApplication1.Data;
+using WebApplication1.Data.Interface;
+using WebApplication1.Data.Mocks;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Documenty.Reposotory;
-
+using WebApplication1.Data.Models;
+using WebApplication1.Data.Reposotory;
+using System.Reflection.Metadata;
 
 namespace WebApplication1
 {
@@ -28,7 +29,7 @@ namespace WebApplication1
 
         public Startup(IHostEnvironment hostEnv)
         {
-            _confstring = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("Db_setting.json").Build();
+            _confstring = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("dbsettings.json").Build();
         }
         public Startup(IConfiguration configuration)
         {
@@ -41,9 +42,9 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confstring.GetConnectionString("DefaultConnection")));
-            services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<iAllTovars, RepositoryTov>();
             services.AddTransient<iTovarCat, RepositoryCat>();
+            services.AddMvc(options => options.EnableEndpointRouting = false);
 
         }
 
@@ -54,6 +55,15 @@ namespace WebApplication1
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+
+            
+            using (var scop = app.ApplicationServices.CreateScope())
+            {
+                AppDBContent content = scop.ServiceProvider.GetRequiredService<AppDBContent>();
+                DBobjects.Initial(content);
+            }
+                
+            
 
         }
     }

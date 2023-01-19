@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Documenty.Modely;
-using WebApplication1.Documenty.Interface;
+using WebApplication1.Data.Models;
+using WebApplication1.Data.Interface;
 using WebApplication1.ViewsModls;
 
 namespace WebApplication1.Controllers

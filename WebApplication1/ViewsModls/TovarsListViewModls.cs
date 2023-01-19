@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using WebApplication1.Documenty.Modely;
+using WebApplication1.Data.Models;
 
 namespace WebApplication1.ViewsModls
 {
