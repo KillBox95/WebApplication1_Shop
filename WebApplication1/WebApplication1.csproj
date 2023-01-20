@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Shared\AllTovars.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="JSON" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
@@ -30,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Shared\AllTovars.cshtml" />
     <None Include="wwwroot\img\fon.jpg" />
     <None Include="wwwroot\img\Krovelnye-samorezy.jpg" />
     <None Include="wwwroot\img\Mebelnye.jpg" />
@@ -43,14 +38,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\js\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Shared\AllTovars.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Shared\AllTovars.cshtml" />
   </ItemGroup>
 
 </Project>
