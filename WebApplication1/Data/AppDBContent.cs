@@ -12,6 +12,9 @@ namespace WebApplication1.Data
 
         public DbSet<Tovar> Tovar { get; set; }
         public DbSet<Category> Category { get; set; }
-    
+        public DbSet<Korzina> Korzina { get; set; }
+
+
+
     }
 }

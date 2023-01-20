@@ -7,6 +7,7 @@ namespace WebApplication1.Data.Interface
     public interface iAllTovars
     {
         IEnumerable<Tovar> Tovars { get; }
+        IEnumerable<Tovar> getFavTovar { get; }
         Tovar getObjectTovar(int TovarId);
     }
 }

@@ -1,0 +1,17 @@
+﻿@model AllKorzViewModls
+    <div class="container">
+        @foreach (var Elements in Model.allKorzina.KorzinaList){
+        <div class="cart-item__img">
+            <img class="product-img" src="@Elements.Tovar.img" alt="">
+        </div>
+        <div class="cart-item__desc">
+            <div class="cart-item__title">@Elements.Tovar.name</div>
+            <div class="cart-item__weight">@Elements.Tovar.count</div>
+                <div class="price">
+                <div class="price__currency">@Elements.Tovar.price.ToString("c")</div>
+                </div>
+        </div>
+    }
+    <hr />
+    <div class ="btn btn-danger" asp-controller="Order">ОПЛАТИТЬ</div>
+    </div>

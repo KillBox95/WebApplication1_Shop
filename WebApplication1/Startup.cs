@@ -19,6 +19,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data.Models;
 using WebApplication1.Data.Reposotory;
 using System.Reflection.Metadata;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApplication1
 {
@@ -44,7 +45,14 @@ namespace WebApplication1
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confstring.GetConnectionString("DefaultConnection")));
             services.AddTransient<iAllTovars, RepositoryTov>();
             services.AddTransient<iTovarCat, RepositoryCat>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped(cp => AllKorzina.GetTovar(cp));
+
             services.AddMvc(options => options.EnableEndpointRouting = false);
+
+            services.AddMemoryCache();
+            services.AddSession();
 
         }
 
@@ -54,6 +62,7 @@ namespace WebApplication1
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
 
             

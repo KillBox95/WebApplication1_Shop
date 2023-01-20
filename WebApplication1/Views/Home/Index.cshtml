@@ -1,8 +1,10 @@
-﻿    <h2>МАГАЗИН САМОРЕЗОВ</h2>
-    <h3>@Model.currCategory</h3>
+﻿@model HomeViewModls
+
+    <h2>МАГАЗИН САМОРЕЗОВ</h2>
+    
     <div class="row mt-5 mb-2">
     @{
-        foreach (Tovar tovar in Model.AllTovars){
+        foreach (Tovar tovar in Model.FavTovar){
         
             @Html.Partial("AllTovars", tovar)
             

@@ -73,3 +73,8 @@ F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\obj\Debug\ne
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Humanizer.dll
 F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\УЧЕБА!\Зима 2023\ИИС\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
