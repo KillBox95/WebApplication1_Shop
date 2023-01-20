@@ -23,6 +23,7 @@ namespace WebApplication1.Data
                         img = "/img/Krovelnye-samorezy.jpg",
                         price = 150,
                         count = 10,
+                        isFavorite = true,
                         Category = Categories["1 степень качества"]
                     },
 
@@ -32,6 +33,7 @@ namespace WebApplication1.Data
                         img = "/img/Sjendvich-panelej.jpg",
                         price = 300,
                         count = 15,
+                        isFavorite = true,
                         Category = Categories["2 степень качества"]
                     },
 
@@ -41,6 +43,7 @@ namespace WebApplication1.Data
                         img = "/img/Sjendvich-panelej.jpg",
                         price = 300,
                         count = 40,
+                        isFavorite = true,
                         Category = Categories["1 степень качества"]
                     },
                     new Tovar
@@ -49,6 +52,7 @@ namespace WebApplication1.Data
                         img = "/img/Samorezy-po-betonu.jpg",
                         price = 400,
                         count = 40,
+                        isFavorite = false,
                         Category = Categories["2 степень качества"]
                     },
                     new Tovar
@@ -57,6 +61,7 @@ namespace WebApplication1.Data
                         img = "/img/Samorez-konstrukcionnyj.jpg",
                         price = 300,
                         count = 10,
+                        isFavorite = false,
                         Category = Categories["1 степень качества"]
                     },
                     new Tovar
@@ -65,6 +70,7 @@ namespace WebApplication1.Data
                         img = "/img/Mebelnye.jpg",
                         price = 300,
                         count = 100,
+                        isFavorite = false,
                         Category = Categories["2 степень качества"]
                     }
                     );
