@@ -45,6 +45,7 @@ namespace WebApplication1
             services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confstring.GetConnectionString("DefaultConnection")));
             services.AddTransient<iAllTovars, RepositoryTov>();
             services.AddTransient<iTovarCat, RepositoryCat>();
+            services.AddTransient<iAllZakaz, RepositoryZak>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(cp => AllKorzina.GetTovar(cp));

@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Korzina.jpg",
+      "PackagePath": "staticwebassets\\img\\Korzina.jpg"
+    },
+    {
       "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Krovelnye-samorezy.jpg",
       "PackagePath": "staticwebassets\\img\\Krovelnye-samorezy.jpg"
     },
     {
       "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Mebelnye.jpg",
       "PackagePath": "staticwebassets\\img\\Mebelnye.jpg"
+    },
+    {
+      "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Otz.png",
+      "PackagePath": "staticwebassets\\img\\Otz.png"
     },
     {
       "Id": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Samorez-konstrukcionnyj.jpg",

@@ -14,7 +14,7 @@
                 </div>
                 <div class="price__currency">@Model.price.ToString("c")</div>
             </div>
-            <button data-cart type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+            <p><a class="btn btn-warning" asp-controller="AllKorzina" asp-action="addToKorz" asp-route-id="@Model.id">+ в корзину</a></p>
         </div>
     </div>
 </div>

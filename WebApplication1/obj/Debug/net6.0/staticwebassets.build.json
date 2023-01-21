@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M/orPR8SUK0u9tqFyIFkgh1mHR5HPF9kb44issUQROw=",
+  "Hash": "93RrjAYYDvTKUHDxty6EaAorgWhKp2+Xh9/DewSv4dA=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\img\\fon.jpg"
     },
     {
+      "Identity": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Korzina.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "img/Korzina.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Korzina.jpg"
+    },
+    {
       "Identity": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Krovelnye-samorezy.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Mebelnye.jpg"
+    },
+    {
+      "Identity": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Otz.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "img/Otz.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Otz.png"
     },
     {
       "Identity": "F:\\УЧЕБА!\\Зима 2023\\ИИС\\WebApplication1\\WebApplication1\\wwwroot\\img\\Samorez-konstrukcionnyj.jpg",

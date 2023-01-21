@@ -30,7 +30,7 @@ namespace WebApplication1.Controllers
             return View(obj); 
         }
 
-            public RedirectToActionResult AddToKorz(int id)
+            public RedirectToActionResult addToKorz(int id)
         {
             var item = _tovRep.Tovars.FirstOrDefault(i => i.id == id);
             if(item != null)
